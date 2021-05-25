@@ -4,6 +4,16 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: section
+  label: 'content '
+  create: all
+  match: "**/*"
+  new_doc_ext: ".md"
+  templates:
+  - signup-bar
+  - content-feature
+  - simple-header
 - type: heading
   label: cryptomania
 - type: document
