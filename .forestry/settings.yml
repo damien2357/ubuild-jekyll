@@ -7,8 +7,6 @@ sections:
 - type: document
   path: "-whoarewe.pdf"
   label: 'who are we '
-  match: "**/*"
-  read_only: false
 - type: heading
   label: Site map
 - type: document
